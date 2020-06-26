@@ -6,3 +6,9 @@ header {
     min-height: 5rem;
     padding: 1rem;
 }
+
+footer {
+    background-color: black;
+    min-height: 3rem;
+    padding: 1rem;
+}
