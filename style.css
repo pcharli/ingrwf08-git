@@ -1,3 +1,8 @@
 body {
     color: silver;
 }
+header {
+    background-color: pink;
+    min-height: 5rem;
+    padding: 1rem;
+}
