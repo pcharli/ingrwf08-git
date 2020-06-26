@@ -13,13 +13,12 @@ footer {
     padding: 1rem;
 }
 
-
 /* css aveugle loul */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 
-form {
+.login-form {
   position: relative;
   z-index: 1;
   background: #ffffff;
@@ -29,7 +28,7 @@ form {
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-form input {
+.login-form__login-input, .login-form__pwd_input {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
@@ -40,7 +39,7 @@ form input {
   box-sizing: border-box;
   font-size: 14px;
 }
-form button {
+.login-form__btn {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
@@ -53,28 +52,16 @@ form button {
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
-}
 
-
-button {
-  display: inline-block;
-  box-shadow: none;
-  appearance: none;
-  border: 0;
-  outline: 0;
-  background-color: green;
- 
-  line-height: 42px;
-  padding: 0 30px;
-  font-size: 20px;
-  border-radius: 1rem;
-  color: rgb(22, 48, 41);
-  cursor: pointer;
   transition: all 0.5s;
   transition-timing-function: cubic-bezier(0.2, 3, 0.4, 1);
   user-select: none;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15), 0 0 20px 0 rgba(0, 0, 0, 0.15);
-   }
+  
+}
+
+
+
 
 button:hover {
     transform: scale(1.1, 1.1);
