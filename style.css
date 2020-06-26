@@ -28,7 +28,7 @@ footer {
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.login-form__login-input, .login-form__pwd_input {
+.login-form__login-input, .login-form__pwd-input{
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
