@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form class="login-form">
+        <div class="login-form__login">
+          <label class="login-form__login-label" for="login_fld">Login:</label>
+          <input
+            class="login-form__login-input"
+            type="text"
+            id="login_fld"
+            name="login_fld"
+            invalid
+          />
+        </div>
+        <div class="login-form__pwd">
+          <label for="login_fld" class="login-form__pwd_label">password:</label>
+          <input
+            type="text"
+            class="login-form__pwd_input"
+            id="login_fld"
+            name="login_fld"
+            invalid
+          />
+        </div>
+        <button type="submit" class="login-form__btn">Login</button>
+      </form>
 </body>
 </html>
